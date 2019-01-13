@@ -30,7 +30,7 @@
 
         $.get(recentlyPlayedUrl, function(e){
             let data = e.data;
-            console.log(data);
+            console.log(e);
         });
     };
 })(jQuery);
